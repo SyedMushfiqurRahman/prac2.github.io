@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(./img/c544fd89-6940-443d-89f9-54184fa80992-Pepsi_Blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+
+}
+
+.nav{
+    background-color: rgba(0,0,0,0.4);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav nav .logo{
+    width: 140px;
+    height: auto;
+    padding: 20px 100px;
+}
+
+
+.nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 8px;
+}
+
+.nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+
+.nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    padding: 6px 13px;
+    transition: .4s;
+}
+
+.nav nav .active{
+    background-color: rgba(255, 0, 0, 0.9);
+    border-radius: 5px;
+}
+
+.nav nav a:hover{
+    background-color: rgba(255, 0, 0, 0.9);
+    border-radius: 2px;
+}
+
+.button{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 75%;
+    left: 26.5%;
+    font-family: sans-serif;
+    margin-top: 10px;
+}
+
+.button button{
+    font-size: 18px;
+	font-weight: 600;
+    background-color: rgba(255, 0, 0, 0.9);
+    outline: none;
+    cursor: pointer;
+    height: 50px;
+    width: 150px;
+    border-radius: 25px;
+    color: white;
+    transition: .4s;
+    transition-timing-function:linear ;
+    transition-duration: 1s;
+    
+}
+
+.button button:hover{
+    transform: rotate(360deg);
+}
+
+.button .btn{
+	margin-left: 20px;
+}
